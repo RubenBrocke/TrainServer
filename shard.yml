@@ -1,0 +1,22 @@
+name: Server
+version: 0.1.0
+
+authors:
+  - RubenBrocke <ruben@marienhove.nl>
+
+targets:
+  Server:
+    main: src/Server.cr
+
+crystal: 0.23.1
+
+dependencies:
+  db:
+    github: crystal-lang/crystal-db
+  kemal:
+    github: kemalcr/kemal
+    version: 0.21.0
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+license: MIT

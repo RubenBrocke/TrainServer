@@ -29,6 +29,14 @@ end
 
 Kemal.run
 
+while(true)
+{
+  input = gets.to_s.chomp
+  if (intput == "exit") do
+    exit
+  end
+}
+
 ensure
   db.close
   puts "Closing database"
